@@ -11,10 +11,10 @@ int main()
     //essayons d'additionner
     float nb1, nb2, multiplication;
     printf("entrez un premier nombre\n");
-    scanf("%d", &nb1);
+    scanf("%f", &nb1);
 
     printf("entrez le deuxieme nombre\n");
-    scanf("%d", &nb2);
+    scanf("%f", &nb2);
 
     multiplication = nb1 * nb2;
 
@@ -24,4 +24,5 @@ int main()
 
 
 }
+
 
